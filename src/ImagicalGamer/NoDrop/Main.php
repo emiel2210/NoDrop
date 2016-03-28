@@ -4,6 +4,7 @@ use pocketmine\command\Command;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerDropItemEvent;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
