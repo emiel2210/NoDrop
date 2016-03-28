@@ -24,3 +24,4 @@ public function onDropItem(PlayerDropItemEvent $event){
    	$event->setCancelled(false);
    }
 }
+}
